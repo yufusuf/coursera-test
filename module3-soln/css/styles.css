@@ -1,8 +1,78 @@
-body{
-	background-color: maroon;
-	color:#fff;
-	background-color:#61122f; 
-	font-family: 'Oxygen', sans-serif;
-	
+/*e63946:red f1faee:white a8dadc:blue1 457b9d:blue2 1d3557:blue3*/
+
+
+
+body {
+  font-size: 16px;
+  color: #457b9d;
+  background-color: #f1faee;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+	background-color:#e63946; 
+	border-radius: 0;
+	border:0;
+}
+
+div.navbar-header a {
+	color:#f1faee;
+	font-size:1.8em;
+	font-weight: bold;
+
+}
+.navbar-header div
+{
+	margin: 20px 15px 20px;
+
+}
+.navbar-header a:hover, .navbar-header a:focus {
+  text-decoration: none;
+}
+
+button
+{
+	position:relative;
+	bottom:65px;
+}
+#main-content
+{
+	background-color: #a8dadc;
+	color:#1d3557;
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#our-menu h2 
+{
+	text-align: center;
+}
+h1
+{
+	margin-bottom: 25px;
+	color:#457b9d ;
+}
+
+#nav-list a:hover, #list a:focus {
+  text-decoration: none;
+}
+#nav-list li{
+	font-size: 1.5em;
+	text-align: center;
+	color:#f1faee;
+}
+@media (max-width: 768px) {
+
+#collapsable-nav{
+	background-color: #1d3557;
+}
+#collapsable-nav li{
+	vertical-align: middle;
+
+}
+hr{
+	margin:10px;
+}
 
 }
