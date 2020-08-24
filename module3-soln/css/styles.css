@@ -15,7 +15,7 @@ body {
 	border:0;
 }
 
-div.navbar-header a {
+div.navbar-brand  a{
 	color:#f1faee;
 	font-size:1.8em;
 	font-weight: bold;
